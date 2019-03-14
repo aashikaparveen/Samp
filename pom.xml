@@ -26,16 +26,20 @@
     </plugins>
   </build>
    <distributionManagement>
-        <repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://infytraining.centralindia.cloudapp.azure.com:8081/repository/samplere/</url>
-        </repository>
-        <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://infytraining.centralindia.cloudapp.azure.com:8081/repository/sampless/</url>
-        </snapshotRepository>
+    <repository>
+	              <id>nexus</id>
+	              <name>Releases</name>
+	             <url>http://infytraining.centralindia.cloudapp.azure.com:8081/repository/maven-releases</url>
+
+	       </repository>
+	       <snapshotRepository>
+	              <id>nexus</id>
+	              <name>Snapshot</name>
+	             <url>http://infytraining.centralindia.cloudapp.azure.com:8081/repository/maven-snapshots</url>
+
+	               </snapshotRepository>
+
+
     </distributionManagement>
   <dependencies>
   	<dependency>
