@@ -31,7 +31,7 @@
 	              <name>Releases</name>
 	             <url>http://infytraining.centralindia.cloudapp.azure.com:8081/repository/maven-releases</url>
 
-	       </repository>
+	     </repository>
 	       <snapshotRepository>
 	              <id>nexus</id>
 	              <name>Snapshot</name>
